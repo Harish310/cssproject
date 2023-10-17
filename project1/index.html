@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
@@ -17,6 +17,7 @@
                 <h4>Career</h4>
                 <h4>Blog</h4>
                 <h4>Account</h4>
+                <i class="ri-sun-fill"></i>
                 <button>Sign In</button>
                 <i class="ri-menu-3-line"></i>
             </div>
@@ -32,5 +33,23 @@
             </div>
         </div>
     </div>
+    <script>
+        var body = document.querySelector("body")
+            var sun = document.querySelector(".ri-sun-fill")
+            
+            let flag = 0
+    
+        sun.addEventListener("click", function(){
+            if(flag == 0){
+            body.style.backgroundColor = "#212121"
+            body.style.color = "#fff"
+            flag = 1
+            }
+            else{
+                body.style.backgroundColor = "transparent"
+                body.style.color = "black"
+                flag = 0
+            } 
+        })</script>
 </body>
 </html>
