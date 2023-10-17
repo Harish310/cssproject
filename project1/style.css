@@ -49,7 +49,7 @@ html, body{
     border-radius: 5px;
     font-weight: 600;    
 }
-.nav i{
+.ri-menu-3-line{
     font-weight: 700;
     display: none;
 }
@@ -126,7 +126,7 @@ html, body{
         display: none;
     }
 
-    .nav i{
+    .ri-menu-3-line{
         display: block;
         font-size: 4.5vw;
         font-weight: 800;
