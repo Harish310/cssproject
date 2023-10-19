@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: #d5d7db;
+}
+.navbar{
+    height: 60px;
+    background-color: #2875f0;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav-logo{
+    width: 137px;
+    height: 56px;
+    margin-left: 124px;
+    padding-top: 10px;
+}
+.logo{
+    background-image: url(flipkart-plus_8d85f4.png);
+    height: 20px;
+    width: 75px;
+    background-size: cover;
+
+}
+.nav-explore{
+    display: flex;
+    font-size: 0.75rem;
+}
+.exp{
+    color: white;
+    margin-right: 2px;
+    
+}
+.add-icon{
+    color: #fb641b;
+    display: flex;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 500px;
+    height: 36px;
+    border-radius: 4px;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2875f0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-login{
+    height: 56px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+   
+}
+.login{
+    height: 20px;
+    width: 120px;
+    background-color:#fff;
+    color: #2875f0;
+    padding: 5px 40px;
+    text-decoration: none;
+    
+}
+.seller{
+    width: 120px;
+    height: 56px;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+    align-items: center;
+    color: #fff;
+
+}
+.more{
+    font-size: 0.85rem;
+    font-weight: 700
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 115px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.grocery{
+    height: 112px;
+    width: 94px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.mobiles{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.fashion{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.electronices{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+}
+.HomeFurniture{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+.Appliances{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.travel{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.Beauty{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px 12px 22px;
+    font-size: 14px;
+    font-weight: 500;
+    
+
+}
+.twoweeler{
+    height: 112px;
+    width: 94px;
+    padding: 12px 8px 12px 22px;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.hero-section{
+    background-image: url(hero1.webp);
+    background-size: cover;
+    height: 280px;
+    padding-bottom: 10px;
+
+}
+.product-section{
+    height: 370px;
+    width: 100%;
+    margin: 10px 0px 10px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    background-size: contain;
+}
+.electronic{
+    height: 100%;
+    width: 79%;
+    background-color: #fff; 
+    display: flex; 
+}
+.addv{
+    height: 100%;
+    width:19%;
+    background-color: chartreuse;
+}
+.headline{
+    height: 100%;
+    width: 25%;
+    background-color:white;
+    background-image: url(best\ of\ electronices.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+}
+.headlinesec{
+    height: 100%;
+    width:100%;
+    font-size: 1.5rem;
+    font-size: 700;
+    padding: 30% 10% 30% 10%;
+}
+button{
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+    background-color: #2875f0;
+    color: #d5d7db;
+}
+.productlist{
+    height: 100%;
+    width: 75%;
+    background-color: white;
+    display: flex;
+    background-size: contain;
+    overflow-x: scroll;
+    
+   
+}
+.p1{
+    width: 40%;
+    padding: 25px 15px;
+    font-size: 0.8rem;
+    text-align: center;
+   
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color: #2875f0;
+
+}
